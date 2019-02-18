@@ -14,7 +14,6 @@ class App extends Component {
           <nav>
           <Link to='/' className="link">Landing</Link>
           <Link to='/library' className="link">Library</Link>
-          <Link to='/album' className="link">Album</Link>
           </nav>
           <h1 className={ tagPath === "/" ? 'app-title' : 'app-title-small'}>Bloc Jams</h1>
         </header>
