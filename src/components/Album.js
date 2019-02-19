@@ -138,10 +138,10 @@
         <section id="album-info" className="row">
         <img id="album-cover-art" className="col-md-4" src={this.state.album.albumCover} alt={this.state.album.title}/>
         <div className="album-details col-md-8">
-        <h5>ALBUM</h5>
-            <h1 id="album-title">{this.state.album.title}</h1>
-            <h5>ARTIST</h5>
-            <h2 className="artist">{this.state.album.artist}</h2>
+        <h3>ALBUM</h3>
+            <h5 id="album-title">{this.state.album.title}</h5>
+            <h3>ARTIST</h3>
+            <h5 className="artist">{this.state.album.artist}</h5>
             <div id="release-info">{this.state.album.releaseInfo}</div>
             </div>
           </section>

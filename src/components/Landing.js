@@ -14,7 +14,7 @@ const Landing = () => (
     </div>
     <div className="point col-md-4">
       <h2 className="point-title">Unlimited, streaming, ad-free</h2>
-      <p className="point-description">No arbitrary limits. No distractions</p><br/>
+      <p className="point-description">No arbitrary limits. No distractions</p>
       <span className="icon ion-thumbsup custom-icon"></span>
     </div>
     <div className="point col-md-4">

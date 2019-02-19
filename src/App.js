@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
         <header>
           <nav>
-          <Link to='/' className="link">Landing</Link>
+          <Link to='/' className="link">Home</Link>
           <Link to='/library' className="link">Library</Link>
           </nav>
           <h1 className={ tagPath === "/" ? 'app-title' : 'app-title-small'}>Bloc Jams</h1>
