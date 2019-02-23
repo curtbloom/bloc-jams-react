@@ -1,6 +1,11 @@
+.album {
+  position: relative;
+}
+
 #album-info {
   position:relative;
-  margin-left: 0 auto;
+  left: 0px;
+  top: 30px;
   height:14rem;
   width:50rem;
   -webkit-box-shadow:10px 0px 20px
@@ -9,24 +14,31 @@
 
 #album-cover-art {
   position:relative;
-  margin: 0 auto;
+  left: 30px;
   height:14rem;
   width:40rem;
   -webkit-box-shadow:10px 0px 20px
 }
 
 .album-details {
+  position:relative;
+  left: 80px;
   width: 5% 5% 5% 5%;
   height: auto;
   margin-top: auto;
 }
 
 #album-title, .artist {
+  position:relative;
+  left: 80px;
   width: 10%;
   margin-right: 10%;
 }
 
+
 #song-list {
+  position: relative;
+  top: 50px;
   width: 100%;
 	max-width: 340px;
 	padding: 20px;
@@ -63,5 +75,11 @@ button {
 }
 
 .hidden-number {
+  display: none;
+}
+
+.app-title-small {
+  position: relative;
+  top: 0px;
   display: none;
 }

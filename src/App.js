@@ -18,9 +18,11 @@ class App extends Component {
           <h1 className={ tagPath === "/" ? 'app-title' : 'app-title-small'}>Bloc Jams</h1>
         </header>
         <main>
-          <Route exact path="/" component={Landing} />
-          <Route path="/library" component={Library} />
-          <Route path="/album/:slug" component={Album} />
+          <div className="Route">
+            <Route exact path="/" component={Landing} />
+            <Route path="/library" component={Library} />
+            <Route path="/album/:slug" component={Album} />
+          </div>
         </main>
       </div>
     );

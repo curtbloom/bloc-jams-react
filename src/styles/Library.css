@@ -2,17 +2,15 @@
 .library {
   margin: 5em;
   text-align: center;
+  position: relative;
+  left: 50px;
 }
 
 .album-div {
   margin-top: 4em;
+  position: relative;
 }
 
-.album-art {
-  width: 30%;
-  height: 30%;
-  margin-bottom: 1.5em;
-}
 
 .app-title h1 {
   font-size: 1em;
@@ -31,4 +29,12 @@
 .album-songs-length {
   font-size: 1.5em;
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  left: 200px;
+}
+
+.app-title-small {
+  position: relative;
+  left: 460px;
+  top: 40px;
 }
