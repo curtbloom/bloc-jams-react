@@ -9,7 +9,7 @@ const Landing = () => (
   <div className="container">
     <section className="selling-points row">
       <div className="container-1">
-        <h2 className="point-title">Choose your music</h2>
+        <h1 className="point-title">Choose your music</h1>
         <p className="point-description">The world is full of music; why should you have to listen to music that someone else chose?</p>
       <span className="icon ion-ios-musical-notes custom-icon"></span>
       </div>

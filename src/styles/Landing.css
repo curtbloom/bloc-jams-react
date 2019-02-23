@@ -8,36 +8,36 @@ body {
 
 
 .container div {
-  width: 100%;
-  color: white;
-  border-style: outset;
+  color: black;
+  border-style: inset;
   border-width: 5px;
-  box-shadow: 1px 1px 1px 1px white;
+  box-shadow: 1px 1px 1px 1px gray;
   text-align: center;
   width: 30%;
   border: 5px solid white;
   display: inline-block;
-  font-size: .9em;
+  font-size: .8em;
   margin-bottom: 1.5em;
   margin-top: .2;
-  font-family: 'Raleway', sans-serif;
-
 }
 
 .container-3 {
   position: relative;
+  background-color: white;
   top: 40px;
   left: 110px;
 }
 
 .container-2 {
   position: relative;
+  background-color: white;
   top: 40px;
   left: 60px;
 }
 
 .container-1 {
   position: relative;
+  background-color: white;
   right: -10px;
   top: 40px;
 }
@@ -68,6 +68,11 @@ body {
 }
 
 .point-title {
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 1.6em;
+  font-weight:400;
+}
+
+.point-description {
+  position:relative;
+  top: 20px;
 }
