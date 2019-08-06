@@ -1,86 +1,85 @@
-#album-title, #artist, #release-info {
-    font-family: 'Montserrat';
-    margin: 1px;
-    padding: 1px;
-}
-#album-title {
-    font-size: 3rem;
-}
-
-#artist {
-    font-size: 1.5rem;
-}
-
-#release-info {
-    font-size: 1rem;
-}
-
-.table-responsive {
-    border-collapse: collapse;
-    width: 70%;
-    border: none;
-    font-family: 'Montserrat';
-}
-td, tr, tbody {
-    border: none;
-}
-
-table {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  td {
-    text-align: left;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 10px;
-    padding-right: 20px;
-  }
-
-#song-list {
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.album {
+  position: relative;
 }
 
 #album-info {
-    margin-top: 50px;
-}
-
-
-
-#column-1  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: black;
-    padding: 0;
-    margin: 0 auto;
+  position:relative;
+  left: 0px;
+  top: 30px;
+  height:14rem;
+  width:50rem;
+  -webkit-box-shadow:10px 0px 20px
 
 }
 
-#column-2 {
-    display: block;
-    align-items: center;
-    color: white;
-    margin: 0 auto;
-    padding: 0;
+#album-cover-art {
+  position:relative;
+  left: 30px;
+  height:14rem;
+  width:40rem;
+  -webkit-box-shadow:10px 0px 20px
 }
 
-#album-image {
-    max-height: 330px;
-    margin-top: 50px;
+.album-details {
+  position:relative;
+  left: 80px;
+  width: 5% 5% 5% 5%;
+  height: auto;
+  margin-top: auto;
 }
 
-#container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#album-title, .artist {
+  position:relative;
+  left: 80px;
+  width: 10%;
+  margin-right: 10%;
 }
 
-.row {
-    margin-right: 0;
-    margin-left: 0;
-} 
+
+#song-list {
+  position: relative;
+  top: 50px;
+  width: 100%;
+	max-width: 340px;
+	padding: 20px;
+	margin: 10px auto;
+	box-shadow: 0px 1px 10px;
+}
+
+
+td {
+  border-bottom: 1px solid #333;
+  padding: 8px;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 1.25em;
+}
+
+.song-title, .song-duration {
+  font-size: 1.25em;
+}
+
+.song-actions button:hover .song-number {
+  display: none;
+}
+
+.song-actions button .ion-ios-play {
+  display: none;
+}
+
+.song-actions button:hover .ion-ios-play{
+  display: block;
+}
+
+.hidden-number {
+  display: none;
+}
+
+.app-title-small {
+  position: relative;
+  top: 0px;
+  display: none;
+}
